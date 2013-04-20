@@ -31,7 +31,8 @@ def cleanup(f):
 
 def main():
     file_content = file_to_string()
-    print cleanup(file_content)
-
+    clean_content = cleanup(file_content)
+    list_of_lines = clean_content.split("\n")
+    print list_of_lines
 
 main()
