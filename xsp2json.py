@@ -17,7 +17,7 @@ def file_to_string():
         print "opening file " + str(options.filename)
         try:
             f = open(options.filename, 'r').read()
-            return f[:f.index("~NAIF/SPC BEGIN COMMENTS~")]
+            return f
 
         except Exception, e:
             print "file error " + str(e)
@@ -25,7 +25,13 @@ def file_to_string():
         print "Nothing to read. Please enter a filename with the -f option"
 
 
+def cleanup(f):
+    return f[:f.index("~NAIF/SPC BEGIN COMMENTS~")]
+
+
 def main():
-    print file_to_string()
+    file_content = file_to_string()
+    print cleanup(file_content)
+
 
 main()
