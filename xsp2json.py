@@ -5,7 +5,7 @@
 
 
 from optparse import OptionParser
-
+import pprint
 
 parser = OptionParser()
 parser.add_option("-f", "--file", dest="filename",
@@ -33,6 +33,6 @@ def main():
     file_content = file_to_string()
     clean_content = cleanup(file_content)
     list_of_lines = clean_content.split("\n")
-    print list_of_lines
+    pprint.pprint(list_of_lines)
 
 main()
