@@ -53,10 +53,12 @@ def main():
         # print positions
         # origin = positions[0]
         print "moving rover test"
-        move_rover(100, 100, 100)
+        # move_rover(100, 100, 100)
+        move_motor(motor_x, 10, 100)
+        move_motor(motor_y, 10, 300)
         # move_motor(motor_x, 100, 100)
-        for position in positions[1:]:
-           move_rover(10, 100, 10)
+        # for position in positions[1:]:
+        #   move_rover(10, 100, 10)
     else:
         print "no positions found"
 
