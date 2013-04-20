@@ -6,6 +6,7 @@
 
 from optparse import OptionParser
 import pprint
+import json
 
 parser = OptionParser()
 parser.add_option("-f", "--file", dest="filename",
@@ -33,6 +34,7 @@ def main():
     file_content = file_to_string()
     clean_content = cleanup(file_content)
     list_of_lines = clean_content.split("\n")
-    pprint.pprint(list_of_lines)
+    output = json.dumps(list_of_lines, indent=1)
+    print output
 
 main()
