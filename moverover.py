@@ -67,5 +67,5 @@ try:
     motor_z = Motor(b, PORT_C)
     main()
 except Exception, e:
-    print "please connect a Brick"
+    print "please connect a Brick, or install Ubuntu"
 
