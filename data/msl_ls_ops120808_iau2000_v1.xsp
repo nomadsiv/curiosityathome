@@ -1,0 +1,144 @@
+DAFETF NAIF DAF ENCODED TRANSFER FILE
+'NAIF/DAF'
+'2'
+'6'
+'LandmarksSPK                                                '
+BEGIN_ARRAY 1 16
+'LS                                      '
+'1E1DC4^7'
+'BC186AC^8'
+'-12C64'
+'1F3'
+'271E'
+'8'
+16
+'-9B9DD4F876C04^3'
+'8EE34A23C8A2C8^3'
+'-10F58880E3D4AE^3'
+'0^0'
+'0^0'
+'0^0'
+'-9B9DD4F876C04^3'
+'8EE34A23C8A2C8^3'
+'-10F58880E3D4AE^3'
+'0^0'
+'0^0'
+'0^0'
+'1E1DC4^7'
+'BA368E8^8'
+'1^1'
+'2^1'
+END_ARRAY 1 16
+TOTAL_ARRAYS 1
+~NAIF/SPC BEGIN COMMENTS~
+\beginlabel
+PDS_VERSION_ID               = PDS3
+RECORD_TYPE                  = FIXED_LENGTH
+RECORD_BYTES                 = 1024
+^SPICE_KERNEL                = "msl_ls_ops120808_iau2000_v1.bsp"
+MISSION_NAME                 = "MARS SCIENCE LABORATORY"
+SPACECRAFT_NAME              = "MARS SCIENCE LABORATORY"
+DATA_SET_ID                  = "MSL-M-SPICE-6-V1.0"
+KERNEL_TYPE_ID               = SPK
+PRODUCT_ID                   = "msl_ls_ops120808_iau2000_v1.bsp"
+PRODUCT_CREATION_TIME        = 2013-02-27T19:17:45
+PRODUCER_ID                  = "NAIF/JPL"
+MISSION_PHASE_NAME           = {
+                               DEVELOPMENT,
+                               LAUNCH,
+                               "CRUISE AND APPROACH",
+                               "ENTRY, DESCENT, AND LANDING",
+                               "PRIMARY SURFACE MISSION",
+                               "EXTENDED SURFACE MISSION"
+                               }
+PRODUCT_VERSION_TYPE         = ACTUAL
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2000-12-31T23:58:56
+STOP_TIME                    = 2099-12-31T23:58:53
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = MARS
+INSTRUMENT_NAME              = "N/A"
+NAIF_INSTRUMENT_ID           = "N/A"
+SOURCE_PRODUCT_ID            = "N/A"
+NOTE                         = "See comments in the file for details"
+OBJECT                       = SPICE_KERNEL
+  INTERCHANGE_FORMAT         = BINARY
+  KERNEL_TYPE                = EPHEMERIS
+  DESCRIPTION                = "SPK file containing the actual landing site
+location relative to the center of Mars in the Mars body-fixed frame. "
+END_OBJECT                   = SPICE_KERNEL
+\endlabel
+
+
+MSL Target Landing Site GC (actual, 2012-08-08 solution) Coordinates SPK File.
+===========================================================================
+
+     Created by Boris Semenov, NAIF/JPL, Wed Aug  8 16:34:14 PDT 2012
+
+
+Objects in the Ephemeris
+--------------------------------------------------------
+
+     This file contains the location of the MSL target landing site
+     GC (actual, 2012-08-08 solution) on the surface of Mars. The landing
+     site NAIF ID and name are -76900 and 'MSL_LANDING_SITE'.
+
+
+Approximate Time Coverage
+--------------------------------------------------------
+
+     The coverage of this file is:
+
+        COVERAGE BEGIN TIME (TDB)     COVERAGE END TIME (TDB)
+        -------------------------     ------------------------
+        2000 JAN 01 00:00:00.000      2100 JAN 01 00:00:00.000
+
+
+Site Coordinates
+--------------------------------------------------------
+
+     This file contains the landing site location defined by with the
+     following Gaussian coordinates:
+
+        Lon =  137.441700 degrees East
+        Lat =  -4.643851 degrees North
+        Alt =  -4.926878 km
+
+     The corresponding XYZ coordinates were computed by PINPOINT for
+     the triaxial ellipsoid surface defined by the body 499 radii
+     from PcK file 'pck00008.tpc'.
+
+
+Pedigree
+--------------------------------------------------------
+
+     This file was created using PINPOINT Utility Program.
+
+
+Contacts
+--------------------------------------------------------
+
+     If you have any questions regarding this data contact
+
+        Boris V. Semenov, NAIF/JPL,
+        (818)-354-8136,
+        Boris.Semenov@jpl.nasa.gov
+
+
+Appendix. Inputs to Pinpoint
+===========================================================================
+
+        \begindata
+
+           SITES     = ( 'LS' )
+
+           LS_CENTER = 499
+           LS_FRAME  = 'IAU_MARS'
+           LS_IDCODE = -76900
+           LS_LATLON = ( -4.643851 137.441700 -4.926878 )
+           LS_BOUNDS = ( @2001-JAN-01, @2100-JAN-01 )
+
+        \begintext
+
+~NAIF/SPC END COMMENTS~
