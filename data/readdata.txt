@@ -1,0 +1,500 @@
+timefloat: 399733267.182616
+time: 01:00:00.000 Sep 01, 2012
+PositionX: -3116.207307
+PositionY: -144.289149
+PositionZ: 1329.745264
+VelocityX: -0.030152
+VelocityY: -0.218175
+VelocityX: -0.094333
+lt: 0.011312
+
+timefloat: 399733267.182616
+time: 01:00:00.000 Sep 01, 2012
+PositionX: -3116.207307
+PositionY: -144.289149
+PositionZ: 1329.745264
+VelocityX: -0.030152
+VelocityY: -0.218175
+VelocityX: -0.094333
+lt: 0.011312
+
+timefloat: 399733297.182616
+time: 01:00:30.000 Sep 01, 2012
+PositionX: -3117.105085
+PositionY: -150.833822
+PositionZ: 1326.911773
+VelocityX: -0.029700
+VelocityY: -0.218136
+VelocityX: -0.094566
+lt: 0.011312
+
+timefloat: 399733357.182616
+time: 01:01:30.000 Sep 01, 2012
+PositionX: -3118.859994
+PositionY: -163.919598
+PositionZ: 1321.223870
+VelocityX: -0.028797
+VelocityY: -0.218056
+VelocityX: -0.095030
+lt: 0.011312
+
+timefloat: 399733447.182616
+time: 01:03:00.000 Sep 01, 2012
+PositionX: -3121.390679
+PositionY: -183.538888
+PositionZ: 1312.639901
+VelocityX: -0.027441
+VelocityY: -0.217927
+VelocityX: -0.095724
+lt: 0.011312
+
+timefloat: 399733567.182616
+time: 01:05:00.000 Sep 01, 2012
+PositionX: -3124.574972
+PositionY: -209.679203
+PositionZ: 1301.097876
+VelocityX: -0.025631
+VelocityY: -0.217742
+VelocityX: -0.096642
+lt: 0.011312
+
+timefloat: 399733717.182616
+time: 01:07:30.000 Sep 01, 2012
+PositionX: -3128.249731
+PositionY: -242.321823
+PositionZ: 1286.516055
+VelocityX: -0.023366
+VelocityY: -0.217489
+VelocityX: -0.097780
+lt: 0.011312
+
+timefloat: 399733897.182616
+time: 01:10:30.000 Sep 01, 2012
+PositionX: -3132.210676
+PositionY: -281.440027
+PositionZ: 1268.793758
+VelocityX: -0.020644
+VelocityY: -0.217152
+VelocityX: -0.099131
+lt: 0.011312
+
+timefloat: 399734107.182616
+time: 01:14:00.000 Sep 01, 2012
+PositionX: -3136.212218
+PositionY: -326.996893
+PositionZ: 1247.812391
+VelocityX: -0.017465
+VelocityY: -0.216715
+VelocityX: -0.100687
+lt: 0.011312
+
+timefloat: 399734347.182616
+time: 01:18:00.000 Sep 01, 2012
+PositionX: -3139.967334
+PositionY: -378.942659
+PositionZ: 1223.436721
+VelocityX: -0.013827
+VelocityY: -0.216156
+VelocityX: -0.102438
+lt: 0.011312
+
+timefloat: 399734617.182616
+time: 01:22:30.000 Sep 01, 2012
+PositionX: -3143.147514
+PositionY: -437.211670
+PositionZ: 1195.516402
+VelocityX: -0.009729
+VelocityY: -0.215453
+VelocityX: -0.104373
+lt: 0.011312
+
+timefloat: 399734917.182616
+time: 01:27:30.000 Sep 01, 2012
+PositionX: -3145.382833
+PositionY: -501.718909
+PositionZ: 1163.887787
+VelocityX: -0.005172
+VelocityY: -0.214579
+VelocityX: -0.106477
+lt: 0.011312
+
+timefloat: 399735247.182616
+time: 01:33:00.000 Sep 01, 2012
+PositionX: -3146.262195
+PositionY: -572.356134
+PositionZ: 1128.376028
+VelocityX: -0.000157
+VelocityY: -0.213506
+VelocityX: -0.108736
+lt: 0.011312
+
+timefloat: 399735607.182616
+time: 01:39:00.000 Sep 01, 2012
+PositionX: -3145.333819
+PositionY: -648.987639
+PositionZ: 1088.797511
+VelocityX: 0.005314
+VelocityY: -0.212202
+VelocityX: -0.111133
+lt: 0.011312
+
+timefloat: 399735997.182616
+time: 01:45:30.000 Sep 01, 2012
+PositionX: -3142.106007
+PositionY: -731.445667
+PositionZ: 1044.962625
+VelocityX: 0.011238
+VelocityY: -0.210633
+VelocityX: -0.113647
+lt: 0.011312
+
+timefloat: 399736417.182616
+time: 01:52:30.000 Sep 01, 2012
+PositionX: -3136.048296
+PositionY: -819.525505
+PositionZ: 996.678905
+VelocityX: 0.017607
+VelocityY: -0.208764
+VelocityX: -0.116258
+lt: 0.011312
+
+timefloat: 399736867.182616
+time: 02:00:00.000 Sep 01, 2012
+PositionX: -3126.593048
+PositionY: -912.980315
+PositionZ: 943.754558
+VelocityX: 0.024413
+VelocityY: -0.206556
+VelocityX: -0.118941
+lt: 0.011312
+
+timefloat: 399737347.182616
+time: 02:08:00.000 Sep 01, 2012
+PositionX: -3113.137564
+PositionY: -1011.515730
+PositionZ: 886.002396
+VelocityX: 0.031646
+VelocityY: -0.203969
+VelocityX: -0.121670
+lt: 0.011312
+
+timefloat: 399737857.182616
+time: 02:16:30.000 Sep 01, 2012
+PositionX: -3095.046810
+PositionY: -1114.784306
+PositionZ: 823.244196
+VelocityX: 0.039290
+VelocityY: -0.200962
+VelocityX: -0.124414
+lt: 0.011312
+
+timefloat: 399738397.182616
+time: 02:25:30.000 Sep 01, 2012
+PositionX: -3071.656841
+PositionY: -1222.379882
+PositionZ: 755.315484
+VelocityX: 0.047328
+VelocityY: -0.197492
+VelocityX: -0.127143
+lt: 0.011312
+
+timefloat: 399738967.182616
+time: 02:35:00.000 Sep 01, 2012
+PositionX: -3042.279014
+PositionY: -1333.831955
+PositionZ: 682.070761
+VelocityX: 0.055738
+VelocityY: -0.193515
+VelocityX: -0.129821
+lt: 0.011312
+
+timefloat: 399739567.182616
+time: 02:45:00.000 Sep 01, 2012
+PositionX: -3006.205068
+PositionY: -1448.600157
+PositionZ: 603.389165
+VelocityX: 0.064491
+VelocityY: -0.188988
+VelocityX: -0.132411
+lt: 0.011312
+
+timefloat: 399740197.182616
+time: 02:55:30.000 Sep 01, 2012
+PositionX: -2962.713175
+PositionY: -1566.068967
+PositionZ: 519.180546
+VelocityX: 0.073556
+VelocityY: -0.183867
+VelocityX: -0.134873
+lt: 0.011312
+
+timefloat: 399740857.182616
+time: 03:06:30.000 Sep 01, 2012
+PositionX: -2911.075037
+PositionY: -1685.542788
+PositionZ: 429.391949
+VelocityX: 0.082895
+VelocityY: -0.178109
+VelocityX: -0.137164
+lt: 0.011312
+
+timefloat: 399741547.182616
+time: 03:18:00.000 Sep 01, 2012
+PositionX: -2850.564093
+PositionY: -1806.241542
+PositionZ: 334.014451
+VelocityX: 0.092464
+VelocityY: -0.171673
+VelocityX: -0.139238
+lt: 0.011312
+
+timefloat: 399742267.182616
+time: 03:30:00.000 Sep 01, 2012
+PositionX: -2780.464917
+PositionY: -1927.296957
+PositionZ: 233.090311
+VelocityX: 0.102213
+VelocityY: -0.164519
+VelocityX: -0.141046
+lt: 0.011312
+
+timefloat: 399743017.182616
+time: 03:42:30.000 Sep 01, 2012
+PositionX: -2700.083853
+PositionY: -2047.749726
+PositionZ: 126.720371
+VelocityX: 0.112086
+VelocityY: -0.156612
+VelocityX: -0.142540
+lt: 0.011312
+
+timefloat: 399743797.182616
+time: 03:55:30.000 Sep 01, 2012
+PositionX: -2608.760913
+PositionY: -2166.547751
+PositionZ: 15.071605
+VelocityX: 0.122016
+VelocityY: -0.147920
+VelocityX: -0.143666
+lt: 0.011312
+
+timefloat: 399744607.182616
+time: 04:09:00.000 Sep 01, 2012
+PositionX: -2505.882950
+PositionY: -2282.545681
+PositionZ: -101.615271
+VelocityX: 0.131934
+VelocityY: -0.138416
+VelocityX: -0.144371
+lt: 0.011312
+
+timefloat: 399745447.182616
+time: 04:23:00.000 Sep 01, 2012
+PositionX: -2390.898105
+PositionY: -2394.505985
+PositionZ: -223.018268
+VelocityX: 0.141759
+VelocityY: -0.128078
+VelocityX: -0.144599
+lt: 0.011312
+
+timefloat: 399746317.182616
+time: 04:37:30.000 Sep 01, 2012
+PositionX: -2263.331453
+PositionY: -2501.101788
+PositionZ: -348.726810
+VelocityX: 0.151405
+VelocityY: -0.116892
+VelocityX: -0.144295
+lt: 0.011312
+
+timefloat: 399747217.182616
+time: 04:52:30.000 Sep 01, 2012
+PositionX: -2122.801786
+PositionY: -2600.921729
+PositionZ: -478.234821
+VelocityX: 0.160777
+VelocityY: -0.104854
+VelocityX: -0.143403
+lt: 0.011312
+
+timefloat: 399748147.182616
+time: 05:08:00.000 Sep 01, 2012
+PositionX: -1969.039390
+PositionY: -2692.477081
+PositionZ: -610.934410
+VelocityX: 0.169775
+VelocityY: -0.091968
+VelocityX: -0.141869
+lt: 0.011312
+
+timefloat: 399749107.182616
+time: 05:24:00.000 Sep 01, 2012
+PositionX: -1801.904654
+PositionY: -2774.211376
+PositionZ: -746.110359
+VelocityX: 0.178288
+VelocityY: -0.078247
+VelocityX: -0.139639
+lt: 0.011312
+
+timefloat: 399750097.182616
+time: 05:40:30.000 Sep 01, 2012
+PositionX: -1621.407265
+PositionY: -2844.512763
+PositionZ: -882.935689
+VelocityX: 0.186203
+VelocityY: -0.063718
+VelocityX: -0.136662
+lt: 0.011312
+
+timefloat: 399751117.182616
+time: 05:57:30.000 Sep 01, 2012
+PositionX: -1427.725730
+PositionY: -2901.729315
+PositionZ: -1020.468534
+VelocityX: 0.193399
+VelocityY: -0.048422
+VelocityX: -0.132892
+lt: 0.011312
+
+timefloat: 399752167.182616
+time: 06:15:00.000 Sep 01, 2012
+PositionX: -1221.226852
+PositionY: -2944.187457
+PositionZ: -1157.650638
+VelocityX: 0.199751
+VelocityY: -0.032413
+VelocityX: -0.128286
+lt: 0.011312
+
+timefloat: 399753247.182616
+time: 06:33:00.000 Sep 01, 2012
+PositionX: -1002.484769
+PositionY: -2970.213654
+PositionZ: -1293.307754
+VelocityX: 0.205130
+VelocityY: -0.015760
+VelocityX: -0.122808
+lt: 0.011312
+
+timefloat: 399754357.182616
+time: 06:51:30.000 Sep 01, 2012
+PositionX: -772.299079
+PositionY: -2978.159440
+PositionZ: -1426.152267
+VelocityX: 0.209406
+VelocityY: 0.001451
+VelocityX: -0.116428
+lt: 0.011312
+
+timefloat: 399755497.182616
+time: 07:10:30.000 Sep 01, 2012
+PositionX: -531.711505
+PositionY: -2966.429824
+PositionZ: -1554.788340
+VelocityX: 0.212448
+VelocityY: 0.019116
+VelocityX: -0.109126
+lt: 0.011312
+
+timefloat: 399756667.182616
+time: 07:30:00.000 Sep 01, 2012
+PositionX: -282.020498
+PositionY: -2933.514987
+PositionZ: -1677.719902
+VelocityX: 0.214129
+VelocityY: 0.037116
+VelocityX: -0.100893
+lt: 0.011312
+
+timefloat: 399757867.182616
+time: 07:50:00.000 Sep 01, 2012
+PositionX: -24.793128
+PositionY: -2878.025137
+PositionZ: -1793.361764
+VelocityX: 0.214324
+VelocityY: 0.055311
+VelocityX: -0.091728
+lt: 0.011312
+
+timefloat: 399759097.182616
+time: 08:10:30.000 Sep 01, 2012
+PositionX: 238.126477
+PositionY: -2798.728262
+PositionZ: -1900.054132
+VelocityX: 0.212916
+VelocityY: 0.073545
+VelocityX: -0.081646
+lt: 0.011312
+
+timefloat: 399760357.182616
+time: 08:31:30.000 Sep 01, 2012
+PositionX: 504.612870
+PositionY: -2694.590378
+PositionZ: -1996.080748
+VelocityX: 0.209797
+VelocityY: 0.091643
+VelocityX: -0.070676
+lt: 0.011312
+
+timefloat: 399761647.182616
+time: 08:53:00.000 Sep 01, 2012
+PositionX: 772.260017
+PositionY: -2564.817796
+PositionZ: -2079.690830
+VelocityX: 0.204871
+VelocityY: 0.109414
+VelocityX: -0.058862
+lt: 0.011312
+
+timefloat: 399762967.182616
+time: 09:15:00.000 Sep 01, 2012
+PositionX: 1038.387788
+PositionY: -2408.900710
+PositionZ: -2149.124933
+VelocityX: 0.198059
+VelocityY: 0.126651
+VelocityX: -0.046265
+lt: 0.011312
+
+timefloat: 399764317.182616
+time: 09:37:30.000 Sep 01, 2012
+PositionX: 1300.055027
+PositionY: -2226.657326
+PositionZ: -2202.644749
+VelocityX: 0.189300
+VelocityY: 0.143133
+VelocityX: -0.032963
+lt: 0.011312
+
+timefloat: 399765697.182616
+time: 10:00:30.000 Sep 01, 2012
+PositionX: 1554.079919
+PositionY: -2018.277546
+PositionZ: -2238.566765
+VelocityX: 0.178558
+VelocityY: 0.158626
+VelocityX: -0.019056
+lt: 0.011312
+
+timefloat: 399767107.182616
+time: 10:24:00.000 Sep 01, 2012
+PositionX: 1797.068367
+PositionY: -1784.365082
+PositionZ: -2255.299614
+VelocityX: 0.165820
+VelocityY: 0.172889
+VelocityX: -0.004659
+lt: 0.011312
+
+timefloat: 399768547.182616
+time: 10:48:00.000 Sep 01, 2012
+PositionX: 2025.450951
+PositionY: -1525.976714
+PositionZ: -2251.384757
+VelocityX: 0.151103
+VelocityY: 0.185673
+VelocityX: 0.010091
+lt: 0.011312
+
