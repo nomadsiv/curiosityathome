@@ -11,11 +11,6 @@ from nxt.motor import *
 from optparse import OptionParser
 
 
-b = nxt.locator.find_one_brick()
-motor_x = Motor(b, PORT_A)
-motor_y = Motor(b, PORT_B)
-motor_z = Motor(b, PORT_C)
-
 parser = OptionParser()
 parser.add_option("-f", "--file", dest="filename",
                   help="read GCode from file", metavar="FILE")
@@ -65,5 +60,12 @@ def main():
     else:
         print "no positions found"
 
+try:
+    b = nxt.locator.find_one_brick()
+    motor_x = Motor(b, PORT_A)
+    motor_y = Motor(b, PORT_B)
+    motor_z = Motor(b, PORT_C)
+    main()
+except Exception, e:
+    print "please connect a Brick"
 
-main()
