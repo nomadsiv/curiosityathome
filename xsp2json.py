@@ -1,7 +1,8 @@
+#!/usr/bin/env python
+
 # work in progress
 # this parses xsp to json
 
-#!/usr/bin/env python
 
 from optparse import OptionParser
 
