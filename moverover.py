@@ -6,6 +6,7 @@
 
 import thread
 import nxt.locator
+import math
 from nxt.sensor import *
 from nxt.motor import *
 from optparse import OptionParser
@@ -32,7 +33,23 @@ def move_motor(motor, speed, degrees):
 def move_rover(speed, x, y):
     thread.start_new_thread(move_motor, (motor_x, speed, x))
     thread.start_new_thread(move_motor, (motor_y, speed, y))
-
+    
+def distance_on_mars_in_meters(lat1, long1, lat2, long2):
+    degrees_to_radians = math.pi/180.0
+        
+    # phi = 90 - latitude
+    phi1 = (90.0 - lat1)*degrees_to_radians
+    phi2 = (90.0 - lat2)*degrees_to_radians
+        
+    # theta = longitude
+    theta1 = long1*degrees_to_radians
+    theta2 = long2*degrees_to_radians
+        
+    # Compute spherical distance from spherical coordinates.
+    cos = (math.sin(phi1)*math.sin(phi2)*math.cos(theta1 - theta2) + math.cos(phi1)*math.cos(phi2))
+    arc = math.acos( cos )
+    return arc * 338.6 # multiply by mars' radius to get meters
+    
 
 def file_to_list():
     if options.filename:
