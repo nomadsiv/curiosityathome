@@ -107,9 +107,9 @@ int main (int argc, char *argv[])
 	while ( maxpts <= 0 );
 
 
-	/* Query for the time interval. */
-	strcpy(utcbeg,"2012-08-07T12");
-	strcpy(utcend,"2012-12-30T12");
+	/* time interval of what is available from msl_surf_rover_tlm_0000_0089_v1.bsp */
+	strcpy(utcbeg,"2012-08-06T12");
+	strcpy(utcend,"2012-11-07T12");
 	/*if ( maxpts == 1 ) {
 		prompt_c ( "Enter the UTC time (default=2012-08-30T12): ", WORD_SIZE, utcbeg );
 		puts(" ");
