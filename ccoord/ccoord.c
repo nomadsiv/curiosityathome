@@ -23,7 +23,7 @@
 
 	#include <stdio.h>
 	#include <string.h>
-    #include <stdlib.h>
+	#include <stdlib.h>
 
 	#include "SpiceUsr.h"
 
@@ -69,22 +69,6 @@ int main (int argc, char *argv[])
 
 	SpiceBoolean   cont;
 
-
-	furnsh_c("naif0010.tls");
-	furnsh_c("de425s.bsp");
-	furnsh_c("mar085s.bsp");
-	furnsh_c("msl_atls_ops120808_v1.bsp");
-	furnsh_c("msl_cruise_v1.bsp");
-	furnsh_c("msl_ls_ops120808_iau2000_v1.bsp");
-	furnsh_c("msl_struct_v02.bsp");
-	furnsh_c("msl_surf_rover_tlm_0000_0089_v1.bsp");
-	furnsh_c("msl_v06.tf");
-	furnsh_c("pck00008.tpc");
-	                         
-	/* set observer to MSL and set target to MARS */
-	strcpy(obs,"MSL");
-	strcpy(targ,"MSL_LANDING_SITE");
-
 	if (argc < 2) {
 		printf("usage %s (iterations in number)\n",argv[0]);
 		return(1);
@@ -93,14 +77,39 @@ int main (int argc, char *argv[])
 		maxpts=atoi(argv[1]);
 	}
 
+	//furnsh_c("kernels.txt");
+	furnsh_c("naif0010.tls");
+	furnsh_c("de425s.bsp");
+	furnsh_c("mar085s.bsp");
+	furnsh_c("msl_atls_ops120808_v1.bsp");
+	furnsh_c("msl_cruise_v1.bsp");
+	furnsh_c("msl_ls_ops120808_iau2000_v1.bsp");
+	furnsh_c("msl_struct_v02.bsp");
+	furnsh_c("msl_76_sclkscet_00012.tsc");
+	furnsh_c("msl_76_sclkscet_refit_d.tsc");
+	furnsh_c("msl_lmst_ops120808_v1.tsc");
+	furnsh_c("msl_v06.tf");
+	furnsh_c("pck00008.tpc");
+	furnsh_c("msl_surf_rover_tlm_0000_0089_v1.bsp");
+	
+
+	/* set observer to MSL and set target to MARS */
+	strcpy(obs,argv[3]);
+	strcpy(targ,argv[4]);
+	
+	/* reference frame set to j2000 */
+	strcpy(frame,argv[2]);
+
+	
+
   
 
 	while ( maxpts <= 0 );
 
 
 	/* Query for the time interval. */
-	strcpy(utcbeg,"2012-08-30T12");
-	strcpy(utcend,"2012-09-30T12");
+	strcpy(utcbeg,"2012-08-07T12");
+	strcpy(utcend,"2012-12-30T12");
 	/*if ( maxpts == 1 ) {
 		prompt_c ( "Enter the UTC time (default=2012-08-30T12): ", WORD_SIZE, utcbeg );
 		puts(" ");
@@ -113,8 +122,7 @@ int main (int argc, char *argv[])
       }
 	*/
 	
-	/* reference frame set to j2000 */
-	strcpy(frame,"J2000");
+	
 	/* set correction to NONE */
 	strcpy(abcorr,"NONE");
 	  
@@ -166,8 +174,8 @@ int main (int argc, char *argv[])
       Compute the state of 'targ' from 'obs' at 'et' in the 'frame'
       reference frame and aberration correction 'abcorr'.
       */
-		spkezr_c ( targ, et, frame, abcorr, obs, state, &lt );
-
+	//	spkezr_c ( targ, et, frame, abcorr, obs, state, &lt );
+		spkpos_c(targ, et, frame, abcorr, obs, state, &lt);
       /*
       Convert the ET (ephemeris time) into a UTC time string
       for displaying on the screen.
@@ -209,7 +217,8 @@ int main (int argc, char *argv[])
 		
 		//printf("%s,%23.16e,%23.16e\n",utc,(state[0]/1000),(state[1]/1000));
 //		printf("%s,%8.5e,%8.5e\n",utc,state[0],state[1]);
-		printf("%s,%f,%f\n",utc,state[0],state[1]);
+	//	printf("%s,%f,%f\n",utc,state[0],state[1]);
+		printf("%f,%f\n",state[0],state[1]);
 
      
       //   cont = SPICEFALSE;
